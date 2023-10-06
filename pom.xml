@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com</groupId>
-  <artifactId>LVCC_L1_1_SpringSetup</artifactId>
+  <artifactId>LVCC_C3_L1_2_DefaultAndCustomEventHandling</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
@@ -25,6 +25,7 @@
   </properties>
   
   <dependencies>
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -87,7 +88,6 @@
       <version>${org.springframework.version}</version>
     </dependency>
      
-       
  
     <dependency>
         <groupId>javassist</groupId>
@@ -110,24 +110,27 @@
       <version>1.4</version>
     </dependency>
          
-	<dependency> 
-		<groupId>javax.servlet</groupId> 
-		<artifactId>jstl</artifactId> 
-		<version>1.2</version> 
-	</dependency>
-		
-	<dependency> 
-		<groupId>javax.servlet</groupId> 
-		<artifactId>jstl</artifactId>
-		 <version>1.2</version> 
-	</dependency>
-		
-	<dependency> 
-		<groupId>javax.persistence</groupId> 
-		<artifactId>persistence-api</artifactId> 
-		<version>1.0.2</version> 
-		<scope>provided</scope>
-	</dependency>
+
+<dependency> 
+<groupId>javax.servlet</groupId> 
+<artifactId>jstl</artifactId> 
+<version>1.2</version> 
+</dependency>
+
+<dependency> 
+<groupId>javax.servlet</groupId> 
+<artifactId>jstl</artifactId>
+ <version>1.2</version> 
+</dependency>
+
+<dependency> 
+<groupId>javax.persistence</groupId> 
+<artifactId>persistence-api</artifactId> 
+<version>1.0.2</version> 
+<scope>provided</scope>
+ </dependency>
+
+
 
 
  
