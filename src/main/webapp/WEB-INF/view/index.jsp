@@ -10,7 +10,7 @@
 
 <h2>Spring Application</h2>
 
-<a href="customevent">Custom Event Handling</a>
+<a href="listProducts">List Products</a>
 
 
 </body>
